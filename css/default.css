@@ -26,3 +26,18 @@ body{
   overflow: hidden;
   height: 100%;
 }
+.actions{
+  position: absolute;
+  right: 0;
+  top:0;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+
+}
+.actions>button{
+  margin:10px;
+  background:#ddd;
+  border: none;
+  padding: 8px 10px;
+}
